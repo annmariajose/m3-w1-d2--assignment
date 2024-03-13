@@ -4,6 +4,7 @@
   "description": "Week 1 lab assignment",
   "main": "index.js",
   "scripts": {
+    "watch": "nodemon ./start.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ann Maria Jose",
