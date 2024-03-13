@@ -6,6 +6,7 @@ router.get('/', function(req, res) {
 });
 
 router.post('/', function(req, res) {
+    console.log(req.body);
     res.render('form', { title: 'Registration form'});
 });
 
